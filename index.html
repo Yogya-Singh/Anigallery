@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anihub</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        color: white;
+        margin-top: 0px;
+        padding: 0px;
+        background-image: url('itachi.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+    #logo{
+        margin:1px 600px;
+        padding: 2px 2px;
+        color: rgb(167, 26, 26, 0.893);
+        font-size: 50px;
+        font-style: bold;
+        font-family: "Audiowide", sans-serif;
+    }
+
+    #options {
+        background-color: black;
+        border: 2px solid rgb(172, 26, 26);
+        float: left;
+        margin: 3px 2px;
+        padding: 16px 19px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin-right: 350px;
+        text-decoration:none;
+        font-size: 13px;
+        font-family: inherit;
+    }
+
+    #signup{
+        
+        margin: 0px 150px;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #gender{
+        margin: 2px 30px;
+        padding: 2px 2px;
+    }
+    .info{
+        border: 2px solid rgb(172, 26, 26);
+        background-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 35px 110px;
+        padding: 45px 30px;
+        width: 25%;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .feedback{
+        border: 2px solid rgb(172, 26, 26);
+        background-color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 10px 1400px;
+        padding: 17px 7px;
+        width: 6%;
+        font-size: 15px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .form input{
+        text-align: center;
+        display: block;
+        border: 1px solid black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 20px;
+        width: 82%;
+        margin: 2px 30px;
+        padding: 8px 1px;
+    }
+
+    .btn{
+        margin: 1px 15px;
+        padding: 3px 57px;
+        border: 1px solid grey;
+        border-top-right-radius: 9px;
+        border-bottom-left-radius: 9px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .footer{
+        margin: 60px 2px;
+        padding: 5px 5px;
+        font-size: 12px;
+        text-decoration: double;
+    }
+
+    a{
+        color: grey;
+    }
+    a:hover{
+        color: rgb(172, 26, 26);
+    }
+
+    form input:hover{
+        background-color: rgb(179, 179, 179);
+    }
+
+    button:hover{
+        background-color: rgb(162, 36, 36);
+    }
+
+</style>
+
+<body>
+    <header>
+        <div id="options">
+            <a href="$" style="text-decoration:none;">Home</a>
+            &nbsp;
+            &nbsp;
+            <a href="$" style="text-decoration:none;">Movies</a>
+            &nbsp;
+            &nbsp;
+            <a href="$" style="text-decoration:none;">Top Rated</a>
+            &nbsp;
+            &nbsp;
+            <a href="$" style="text-decoration:none;">TV Series</a>
+            &nbsp;
+            &nbsp;
+            <a href="$" style="text-decoration:none;">Top Aring</a>
+        </div>
+
+        <div class="feedback">
+            <a href="https://wa.me/7078641941" style="text-decoration: none;">Give Feedback</a>
+        </div>
+    </header>
+
+    <h2 class="logo" id="logo">
+        ANIGALLERY
+    </h2>
+
+    <div class="info">
+        <h4 id="signup">Sign-up</h4>
+        <br>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <br>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your E-mail">
+            </div>
+            <br>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <br>    
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Nationality">
+            </div>
+            <br>
+            <div id="gender">
+                Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="male">Male</label> <input type="radio" name="myname" id="male">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="female">Female</label><input type="radio" name="myname" id="female">
+            </div>
+            <br>
+            <button class="btn">Submit</button>
+            <button type="reset" class="btn">Reset</button>  
+        </form>
+    </div>
+    
+    <footer class="footer">
+        <a href="mailto:singhyogya2020@gmail.com?subject=Hello%20there&body=This%20is%20a%20predefined%20email%20body.">Give feedback....</a>
+    </footer>
+</body>
+
+</html>
